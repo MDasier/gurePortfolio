@@ -461,6 +461,7 @@ footer {
     right: -100%;
     height: 100vh;
     width: 250px;
+    color: #ccc;
     background-color: #111;
     flex-direction: column;
     justify-content: center;
