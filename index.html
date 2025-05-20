@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gurenet Teknología - Portafolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <div class="logo">
+      <img src="img/logoGurenet.png" alt="Gurenet Teknología" />
+    </div>
+
+    <!-- Botón hamburguesa -->
+    <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="nav-menu">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#portafolio">Portafolio</a></li>
+      <li><a href="#casos">Casos de Éxito</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li class="nav-search">
+        <input type="text" placeholder="Buscar..." id="search-input" />
+        <button>🔍</button>
+      </li>
+    </ul>
+
+    <!-- Fondo oscurecido del modal -->
+    <div class="nav-backdrop" id="nav-backdrop"></div>
+  </div>
+</nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1 class="fade-in">Transformamos ideas en experiencias digitales</h1>
+      <p class="fade-in delay-1">Diseño web a medida para marcas que quieren destacar</p>
+      <a href="#portafolio" class="btn fade-in delay-2 mt-2">Ver nuestros proyectos</a>
+    </div>
+  </header>
+
+  <!-- Sección de Servicios -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="cards">
+        <div class="card">Diseño UX/UI</div>
+        <div class="card">Desarrollo Web</div>
+        <div class="card">E-commerce</div>
+        <div class="card">Branding Digital</div>
+        <div class="card">SEO/SEM</div>
+        <div class="card">Diseño de Logotipos</div>
+        <div class="card">Kit Digital</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Portafolio -->
+  <section id="portafolio" class="portafolio">
+    <div class="container">
+      <h2>Portafolio</h2>
+      <div class="filtros">
+        <button class="filtro" data-categoria="ux-ui">Diseño UX/UI</button>
+        <button class="filtro" data-categoria="desarrollo-web">Desarrollo Web</button>
+        <button class="filtro" data-categoria="ecommerce">E-commerce</button>
+        <button class="filtro" data-categoria="branding">Branding Digital</button>
+        <button class="filtro" data-categoria="seo">SEO/SEM</button>
+        <button class="filtro" data-categoria="logotipos">Logotipos</button>
+        <button class="filtro" data-categoria="todos">Todos</button>
+      </div>
+      <div class="grid">
+        <div class="projects-wrapper">
+          <a href="https://www.gurenet.com" class="project ux-ui proyecto1" target="_blank">
+            <div class="project-content">
+               Proyecto UX/UI 1
+            </div>
+          </a>
+          <a href="https://www.gurenet.com" class="project desarrollo-web proyecto2" target="_blank">
+            <div class="project-content">
+              Proyecto Desarrollo Web 1
+            </div>
+          </a>
+          <a href="https://www.gurenet.com" class="project ecommerce proyecto3" target="_blank">Proyecto E-commerce 1</a>
+          <a href="https://www.gurenet.com" class="project branding proyecto4" target="_blank">Proyecto Branding 1</a>
+          <a href="https://www.gurenet.com" class="project seo proyecto5" target="_blank">Proyecto SEO 1</a>
+          <a href="https://www.gurenet.com" class="project logotipos proyecto6" target="_blank">
+            <div class="project-content">
+              Proyecto Logotipo 1
+            </div>              
+          </a>
+          <a href="https://www.gurenet.com" class="project ux-ui proyecto7" target="_blank">Proyecto UX/UI 2</a>
+          <a href="https://www.gurenet.com" class="project desarrollo-web proyecto8" target="_blank">Proyecto Desarrollo Web 2</a>
+          <a href="https://www.gurenet.com" class="project ecommerce proyecto9" target="_blank">Proyecto E-commerce 2</a>
+          <a href="https://www.gurenet.com" class="project seo proyecto10" target="_blank">Proyecto SEO 2</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección de Casos de Éxito -->
+  <section class="casos" id="casos">
+    <div class="container">
+      <h2>Casos de Éxito</h2>
+      <div class="caso ce1">
+        <h3>Oreca Dental</h3>
+        <p>Rediseñamos su e-commerce y aumentaron un 60% sus ventas en 3 meses.</p>
+      </div>
+      <div class="caso ce2">
+        <div class="caso-content">
+          <h3>Bertegi</h3>
+          <p>Rediseñamos su web y aumentaron un 89% sus visitas en 6 meses.</p>
+        </div>        
+      </div>
+      <div class="caso">
+        <h3>Caso</h3>
+        <p>Información del caso.</p>
+      </div>
+      <div class="caso">
+        <h3>Caso</h3>
+        <p>Información del caso.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Testimonios -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <h2>Comentarios de los clientes</h2>
+      <div class="comentariosClientes">
+        <div class="testimonios-wrapper">
+          <blockquote>“Increíble equipo, entendieron nuestra visión desde el primer día.” – Cliente feliz</blockquote>
+          <blockquote>“¡Excelente trabajo! Superaron nuestras expectativas.” – Cliente contento</blockquote>
+          <blockquote>“Gran atención y diseño impecable. Muy recomendados.” – Cliente satisfecho</blockquote>
+          <blockquote>“Increíble equipo, entendieron nuestra visión desde el primer día.” – Cliente feliz</blockquote>
+          <blockquote>“¡Excelente trabajo! Superaron nuestras expectativas.” – Cliente contento</blockquote>
+          <blockquote>“Gran atención y diseño impecable. Muy recomendados.” – Cliente satisfecho</blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Agencia Creativa</p>
+    </div>
+  </footer>
+
+  <!-- Vinculación de Script -->
+  <script defer src="script.js"></script>
+
+</body>
+</html>
